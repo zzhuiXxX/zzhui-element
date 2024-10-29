@@ -7,5 +7,5 @@ import '@zzhui-element/theme/index.css'
 library.add(fas);
 const installer = makeInstaller(components);
 
-export * from "@zzhui-element/components"
+export * from "./components"
 export default installer;

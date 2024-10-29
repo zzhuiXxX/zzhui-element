@@ -3,12 +3,13 @@ import { fn, within, userEvent, expect, clearAllMocks } from "@storybook/test";
 import { set } from "lodash-es";
 
 import { ZzButton, ZzButtonGroup } from "zzhui-element";
+import "zzhui-element/dist/index.css"
 
 type Story = StoryObj<typeof ZzButton> & { argTypes?: ArgTypes };
 
 const meta: Meta<typeof ZzButton> = {
   title: "Example/Button",
-  component: ZzButton,
+  component: ZzButton as any,
   tags: ["autodocs"],
   argTypes: {
     type: {
