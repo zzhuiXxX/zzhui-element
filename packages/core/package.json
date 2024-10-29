@@ -1,6 +1,6 @@
 {
   "name": "zzhui-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "components library by Vue3 + TS",
   "type": "module",
   "main": "./dist/umd/index.umd.cjs",
@@ -8,7 +8,7 @@
   "types": "./dist/types/core/index.d.ts",
   "files": [
     "dist"
-  ],  
+  ],
   "exports": {
     ".": {
       "import": "./dist/es/index.js",
