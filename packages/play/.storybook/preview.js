@@ -1,4 +1,7 @@
 /** @type { import('@storybook/vue3').Preview } */
+
+import "zzhui-element/dist/theme/index.css"
+
 const preview = {
   parameters: {
     controls: {

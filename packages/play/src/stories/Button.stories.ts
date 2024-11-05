@@ -3,7 +3,8 @@ import { fn, within, userEvent, expect, clearAllMocks } from "@storybook/test";
 import { set } from "lodash-es";
 
 import { ZzButton, ZzButtonGroup } from "zzhui-element";
-import "zzhui-element/dist/index.css"
+import 'zzhui-element/dist/theme/Button.css'
+import 'zzhui-element/dist/theme/Icon.css'
 
 type Story = StoryObj<typeof ZzButton> & { argTypes?: ArgTypes };
 
