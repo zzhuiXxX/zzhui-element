@@ -19,13 +19,13 @@ const emit = defineEmits<ButtonEmits>();
 
 const slots = defineSlots();
 
-const ctx = inject(BUTTON_GROUP_CTX_KEY, void 0)
+const ctx = inject(BUTTON_GROUP_CTX_KEY, void 0);
 
 const _ref = ref<HTMLButtonElement>();
 
-const type = computed(() => ctx?.type ?? props?.type ?? "")
-const size = computed(() => ctx?.size ?? props?.size ?? "")
-const disabled = computed(() => ctx?.disabled || props?.disabled || false)
+const type = computed(() => ctx?.type ?? props?.type ?? "");
+const size = computed(() => ctx?.size ?? props?.size ?? "");
+const disabled = computed(() => ctx?.disabled || props?.disabled || false);
 
 // 无法识别到 {{ “" }} 空值 传了但是没有完全传了
 // const iconStyle = computed(() => ({

@@ -2,7 +2,8 @@
   "name": "@zzhui-element/docs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.md",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
@@ -12,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.2.3",
     "vitepress": "1.0.0-rc.44"
   }
 }
