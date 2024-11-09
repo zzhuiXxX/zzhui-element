@@ -4,6 +4,7 @@ import {
   ZzIcon,
   ZzCollapse,
   ZzCollapseItem,
+  ZzAlert
 } from "@zzhui-element/components";
 import type { Plugin } from "vue";
 
@@ -13,4 +14,5 @@ export default [
   ZzButtonGroup,
   ZzCollapse,
   ZzCollapseItem,
+  ZzAlert
 ] as Plugin[];

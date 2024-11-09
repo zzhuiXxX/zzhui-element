@@ -30,7 +30,7 @@
     "paths": {
       "@zzhui-element/components": [
         "./packages/components"
-      ]
+      ],
     }
   },
   "include": [
